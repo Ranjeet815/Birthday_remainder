@@ -5,9 +5,70 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(238, 113, 113);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.section-container{
+  background: #FFF;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  padding: 1.5rem 2rem;
+  margin: 5rem 0;
+  width: 50vw;
+ border-radius:  1.25rem;
+
 }
+
+main{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.section{
+  margin: 0 auto;
+  max-width:  1170px;
+  width: 90vh;
+}
+
+.Btn{
+  background-color: rgb(238, 113, 113);
+  text-align: center;
+  align-items: center;
+  border: none;
+  color: #fff;
+  padding: 20px 50px;
+  font-weight: 700;
+  font-size: 19px;
+
+}
+
+
+.heading{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: rgb(6, 105, 105);
+  font-weight: 700;
+  padding-bottom: 25px;
+ 
+}
+
+.person{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+.person img{
+  padding: 15px;
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  
+}
+
+
